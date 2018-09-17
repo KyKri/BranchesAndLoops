@@ -46,9 +46,16 @@ namespace BranchesAndLoops
             }
         }
 
+        static void WorkWithLoops()
+        {
+
+        }
+
         static void Main(string[] args)
         {
-            ExploreIf();
+            //ExploreIf();
+
+            WorkWithLoops();
 
             Console.Read();
         }
