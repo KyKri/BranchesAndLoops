@@ -68,11 +68,28 @@ namespace BranchesAndLoops
             }
         }
 
+        static int SumOfIntsDivisibleByThree(int maxInt)
+        {
+            int sum = 0;
+
+            for (int i = 1; i < maxInt; i++)
+            {
+                if(i % 3 == 0)
+                {
+                    sum += i;
+                }
+            }
+
+            return sum;
+        }
+
         static void Main(string[] args)
         {
             //ExploreIf();
 
-            WorkWithLoops();
+            //WorkWithLoops();
+
+            Console.WriteLine(SumOfIntsDivisibleByThree(20));
 
             Console.Read();
         }
