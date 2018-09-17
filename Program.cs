@@ -72,7 +72,7 @@ namespace BranchesAndLoops
         {
             int sum = 0;
 
-            for (int i = 1; i < maxInt; i++)
+            for (int i = 1; i <= maxInt; i++)
             {
                 if(i % 3 == 0)
                 {
